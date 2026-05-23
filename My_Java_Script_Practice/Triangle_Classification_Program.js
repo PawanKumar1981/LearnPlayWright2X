@@ -3,22 +3,22 @@
 // isosceles (exactly two sides are equal), or scalene (no sides are equal).
 //  Use an if-else statement to classify the triangle.
 
+let side_A = 10;
+let side_B = 10;
+let side_C = 10;
 
-let side_A= 10;
-let side_B=5;
-let side_C=2;
-
-if(side_A === side_B && side_B=== side_C && side_C === side_A){
+if (side_A === side_B && side_B === side_C) {
 
     console.log("equilateral");
 
-}else if(side_A === side_B || side_B=== side_C || side_C === side_A){
+} else if (side_A === side_B || side_B === side_C || side_C === side_A) {
 
     console.log("isosceles");
-}else{
+} else {
 
     console.log("scalene");
 }
+
 
 
 
